@@ -4,9 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       source_tag:
+        description: Exact straw-protos tag
         required: true
+        type: string
       source_sha:
+        description: Commit resolved by the source tag
         required: true
+        type: string
 
 permissions:
   contents: read
