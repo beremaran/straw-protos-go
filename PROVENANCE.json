@@ -1,12 +1,12 @@
 {
   "source_repository": "github.com/beremaran/straw-protos",
-  "source_tag": "",
-  "source_commit": "0c5613d",
+  "source_tag": "v0.3.0",
+  "source_commit": "0c5613d82a785347dc2592f5ef0f373ced9cd0a8",
   "generator": "protoc-gen-go",
   "generator_version": "v1.36.10",
   "buf_version": "1.50.0",
-  "generation_config_revision": "bootstrap",
+  "generation_config_revision": "d61b1c91de8afc8111ddbbbbe000af0b748788b3",
   "generated_repository_commit": "pending",
-  "reproducibility": "bootstrap verified locally; exact-tag verification required before release",
+  "reproducibility": "generated twice identically and tests passed",
   "generated_code_notice": "straw/v1/straw.pb.go is generated; do not edit manually"
 }
