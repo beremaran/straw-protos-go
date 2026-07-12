@@ -1,3 +1,4 @@
-# straw.v1 Protobuf
+# Go `straw.v1` bindings
 
-P0 protobuf contracts live here. Task 02 owns the first real `.proto` files and generated Go plumbing.
+`straw.pb.go` is generated and must never be edited manually. Validation, registration payload construction, signing,
+and verification are hand-written protocol helpers tested against language-neutral fixtures.

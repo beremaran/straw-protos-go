@@ -10,7 +10,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	strawpb "github.com/beremaran/straw-oss/api/proto/straw/v1"
+	strawpb "github.com/beremaran/straw-protos-go/straw/v1"
 )
 
 type registrationFixture struct {
@@ -109,9 +109,9 @@ func readFixture(t *testing.T, name string, target any) {
 	)
 	switch name {
 	case "registration-signing.json":
-		data, err = os.ReadFile("../../../../conformance/fixtures/v1/registration-signing.json")
+		data, err = os.ReadFile("../../conformance/fixtures/v1/registration-signing.json")
 	case "envelope.json":
-		data, err = os.ReadFile("../../../../conformance/fixtures/v1/envelope.json")
+		data, err = os.ReadFile("../../conformance/fixtures/v1/envelope.json")
 	default:
 		t.Fatalf("unknown fixture %q", name)
 	}
